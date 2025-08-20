@@ -1882,6 +1882,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+  .timeline-text-new {max-width: 700px; }
 
   .logo-icons{
     color: hsl(45, 100%, 71%);
@@ -1896,6 +1897,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .dot-span{
     display: inline;
+    color: var(--vegas-gold);
+    font-weight: var(--fw-400);
+    line-height: 1.6;
   }
 
   .timeline-text-new{
@@ -1903,5 +1907,12 @@ textarea.form-input::-webkit-resizer { display: none; }
     font-weight: var(--fw-300);
     line-height: 1.6;
     display: inline;
+    line-break: normal;
+  }
+
+  .list-item{
+    list-style:disc;
+    color: var(--vegas-gold);
+
   }
 }
